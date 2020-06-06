@@ -14,3 +14,15 @@ print("Hello World!")
 print('This is awesome')
 ```
 
+
+```{r}
+# Adding another chunk of code
+data = mtcars
+
+str(mtcars)
+
+library(ggplot2)
+ggplot(data=data, mapping=aes(x=hp, y=mpg)) + geom_point(aes(col=cyl))
+
+```
+
